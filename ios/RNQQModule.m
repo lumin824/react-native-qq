@@ -1,12 +1,6 @@
-//
-//  RNQQManager.m
-//  RNQQ
-//
-//  Created by 陆民 on 16/5/6.
-//  Copyright © 2016年 lumin. All rights reserved.
-//
 
-#import "RNQQManager.h"
+#import "RCTBridgeModule.h"
+
 #import "RCTConvert.h"
 #import "RCTBridge.h"
 #import "RCTUtils.h"
@@ -16,12 +10,12 @@
 //#import <TencentOpenAPI/QQApiInterface.h>
 //#import <TencentOpenAPI/QQApiInterfaceObject.h>
 
-@interface RNQQManager(){
+@interface RNQQModule: NSObject<RCTBridgeModule>{
     //TencentOAuth* _tencent;
 }
 @end
 
-@implementation RNQQManager
+@implementation RNQQModule
 
 - (instancetype) init{
     self = [super init];

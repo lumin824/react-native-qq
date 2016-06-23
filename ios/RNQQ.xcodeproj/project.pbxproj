@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D1FD8F11CDD09F300450F77 /* RNQQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1FD8F01CDD09F300450F77 /* RNQQManager.m */; };
+		6D4369531D1C36FA00D397D0 /* RNQQModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4369521D1C36FA00D397D0 /* RNQQModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,7 @@
 
 /* Begin PBXFileReference section */
 		6D1FD8DD1CDD097A00450F77 /* libRNQQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNQQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D1FD8EF1CDD09F300450F77 /* RNQQManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNQQManager.h; sourceTree = "<group>"; };
-		6D1FD8F01CDD09F300450F77 /* RNQQManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNQQManager.m; sourceTree = "<group>"; };
+		6D4369521D1C36FA00D397D0 /* RNQQModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNQQModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +41,7 @@
 		6D1FD8D41CDD097A00450F77 = {
 			isa = PBXGroup;
 			children = (
-				6D1FD8EE1CDD09F300450F77 /* RNQQManager */,
+				6D4369521D1C36FA00D397D0 /* RNQQModule.m */,
 				6D1FD8DE1CDD097A00450F77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,15 +52,6 @@
 				6D1FD8DD1CDD097A00450F77 /* libRNQQ.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6D1FD8EE1CDD09F300450F77 /* RNQQManager */ = {
-			isa = PBXGroup;
-			children = (
-				6D1FD8EF1CDD09F300450F77 /* RNQQManager.h */,
-				6D1FD8F01CDD09F300450F77 /* RNQQManager.m */,
-			);
-			path = RNQQManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +110,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1FD8F11CDD09F300450F77 /* RNQQManager.m in Sources */,
+				6D4369531D1C36FA00D397D0 /* RNQQModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
