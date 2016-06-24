@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D4369531D1C36FA00D397D0 /* RNQQModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4369521D1C36FA00D397D0 /* RNQQModule.m */; };
+		6D4369741D1CB5A000D397D0 /* QQModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4369731D1CB5A000D397D0 /* QQModule.m */; };
+		6D4369771D1CDFA100D397D0 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4369761D1CDFA100D397D0 /* TencentOpenAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		6D1FD8DD1CDD097A00450F77 /* libRNQQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNQQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D4369521D1C36FA00D397D0 /* RNQQModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNQQModule.m; sourceTree = "<group>"; };
+		6D4369731D1CB5A000D397D0 /* QQModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQModule.m; sourceTree = "<group>"; };
+		6D4369751D1CDFA100D397D0 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		6D4369761D1CDFA100D397D0 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4369771D1CDFA100D397D0 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +45,9 @@
 		6D1FD8D41CDD097A00450F77 = {
 			isa = PBXGroup;
 			children = (
-				6D4369521D1C36FA00D397D0 /* RNQQModule.m */,
+				6D4369751D1CDFA100D397D0 /* TencentOpenApi_IOS_Bundle.bundle */,
+				6D4369761D1CDFA100D397D0 /* TencentOpenAPI.framework */,
+				6D4369731D1CB5A000D397D0 /* QQModule.m */,
 				6D1FD8DE1CDD097A00450F77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,7 +116,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4369531D1C36FA00D397D0 /* RNQQModule.m in Sources */,
+				6D4369741D1CB5A000D397D0 /* QQModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +208,10 @@
 		6D1FD8E71CDD097A00450F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -218,6 +228,10 @@
 		6D1FD8E81CDD097A00450F77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
