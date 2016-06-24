@@ -23,6 +23,16 @@ android {
   lintOptions {
     abortOnError false
   }
+  buildTypes {
+    debug {
+      resValue "string", "app_id", QQ_API_ID
+      buildConfigField "String", "APP_ID", '"'+QQ_API_ID +'"'
+    }
+    release {
+      resValue "string", "app_id", QQ_API_ID
+      buildConfigField "String", "APP_ID", '"'+QQ_API_ID +'"'
+    }
+  }
 }
 
 repositories {

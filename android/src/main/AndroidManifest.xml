@@ -1,8 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.lumin824.rn.qq">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.lumin824.qq">
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application>
-    <meta-data android:name="QQ_APPID" android:value="${QQ_APPID}"/>
     <activity
         android:name="com.tencent.tauth.AuthActivity"
         android:noHistory="true"
@@ -11,7 +10,7 @@
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
-            <data android:scheme="${QQ_APPID}" />
+            <data android:scheme="@string/app_id" />
         </intent-filter>
     </activity>
     <activity android:name="com.tencent.connect.common.AssistActivity"
