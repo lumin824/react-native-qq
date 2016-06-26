@@ -25,12 +25,12 @@ android {
   }
   buildTypes {
     debug {
-      resValue "string", "app_id", QQ_API_ID
-      buildConfigField "String", "APP_ID", '"'+QQ_API_ID +'"'
+      resValue "string", "app_id", QQ_APP_ID
+      buildConfigField "String", "APP_ID", '"'+QQ_APP_ID +'"'
     }
     release {
-      resValue "string", "app_id", QQ_API_ID
-      buildConfigField "String", "APP_ID", '"'+QQ_API_ID +'"'
+      resValue "string", "app_id", QQ_APP_ID
+      buildConfigField "String", "APP_ID", '"'+QQ_APP_ID +'"'
     }
   }
 }
