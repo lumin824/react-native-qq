@@ -3,7 +3,7 @@
 gradle.properties
 
 android 配置
-QQ_API_ID=1234567890
+QQ_APP_ID=1234567890
 
 ios配置
 Build Settings->Search Paths->Framework Search Paths 增加 $(SRCROOT)/../node_modules/react-native-qq/ios
